@@ -1,0 +1,31 @@
+{
+    "type": "splatcraft:weapon_workbench",
+    "tab": "splatcraft:weapon_workbench_tabs/chargers",
+    "pos": 4,
+    "recipes": [
+      {
+        "name": "weaponType.original",
+        "advancement": "splatcraft:unlocks/splat_charger",
+        "result": {
+          "item": "splatcraft:bamboozler_14_mk1",
+          "count": 1,
+          "nbt": "{CustomModelData:1,Settings:'splatcraft:grizzco_charger'}",
+          "display": "{Name:'{\"text\":\"That doesn\\'t work\"}'}}"
+        },
+        "ingredients": [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 6
+          },
+          {
+            "item": "splatcraft:power_egg",
+            "count": 20
+          },
+          {
+            "item": "minecraft:ink_sac",
+            "count": 10
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+          "item": "splatcraft:dynamo_roller",
+          "nbt":"{CustomModelData:1}"
+        },
+        "title": "Gold Dynamo",
+        "description": "Get an Gold Dynamo",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+      },
+    "parent": "splatcraftplus:general/root",
+    "criteria": {
+        "getItem": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "splatcraft:dynamo_roller"
+                ],
+                "nbt": "{CustomModelData:1}"
+              }
+            ]
+          }
+        }
+      },
+      "requirements": [
+        [
+          "getItem"
+        ]
+      ]
+  }
+  

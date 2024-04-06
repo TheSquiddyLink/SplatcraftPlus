@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "splatcraft:splattershot",
+      "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Octo Shot\"}'}}"
+    },
+    "title": "Octo Shot",
+    "description": "Get an Octo Shot",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "splatcraftplus:order_weapons/ordershot",
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "splatcraft:splattershot"
+            ],
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "elytra"
+    ]
+  ]
+}

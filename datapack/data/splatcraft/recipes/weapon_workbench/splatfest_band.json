@@ -1,0 +1,29 @@
+{
+    "type": "splatcraft:weapon_workbench",
+    "tab": "splatcraft:weapon_workbench_tabs/rare",
+    "pos": 4,
+    "recipes": [
+      {
+        "name": "weaponType.original",
+        "advancement": "splatcraft:unlocks/splat_charger",
+        "result": {
+          "item": "splatcraft:splatfest_band",
+          "count": 1
+        },
+        "ingredients": [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 6
+          },
+          {
+            "item": "splatcraft:power_egg",
+            "count": 20
+          },
+          {
+            "item": "minecraft:glow_ink_sac",
+            "count": 5
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:splat_dualies",
+        "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Order Dualies\"}'}}"
+      },
+      "title": "Order Dualies",
+      "description": "Get an Order Dualies",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:order_weapons/root",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:splat_dualies"
+              ],
+              "nbt": "{CustomModelData:1}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ]
+  }
+  

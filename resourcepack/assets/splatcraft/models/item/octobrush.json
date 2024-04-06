@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/octobrush" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/painbrush" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 0 }, "model": "item/octobrush_unfolded" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 1 }, "model": "item/painbrush_unfolded" }
+	]
+}

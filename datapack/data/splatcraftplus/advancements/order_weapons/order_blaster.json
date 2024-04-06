@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:luna_blaster",
+        "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Order Blaster\"}'}}"
+      },
+      "title": "Order Blaster",
+      "description": "Get an Order Blaster",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:order_weapons/root",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:luna_blaster"
+              ],
+              "nbt": "{CustomModelData:1}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ]
+  }
+  

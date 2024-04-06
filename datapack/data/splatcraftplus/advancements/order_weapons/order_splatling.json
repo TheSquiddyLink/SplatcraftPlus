@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:heavy_splatling",
+        "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Order Splatling\"}'}}"
+      },
+      "title": "Order Splatling",
+      "description": "Get an Order Splatling",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:order_weapons/root",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:heavy_splatling"
+              ],
+              "nbt": "{CustomModelData:1}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ]
+  }
+  

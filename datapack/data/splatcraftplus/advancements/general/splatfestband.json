@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:splatfest_band"
+      },
+      "title": "Splatfest Colors",
+      "description": "Get an Splatfest band",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:general/root",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:splatfest_band"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ]
+  }
+  

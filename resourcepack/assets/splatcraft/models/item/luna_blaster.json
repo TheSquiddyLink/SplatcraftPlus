@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/luna_blaster" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/order_blaster" }
+	]
+}

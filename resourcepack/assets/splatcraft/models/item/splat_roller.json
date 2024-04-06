@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/splat_roller" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/order_roller" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 0 }, "model": "item/splat_roller_unfolded" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 1 }, "model": "item/order_roller_unfolded"}
+	]
+}

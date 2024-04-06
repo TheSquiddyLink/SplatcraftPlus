@@ -1,0 +1,23 @@
+{
+    "type": "splatcraft:weapon_workbench",
+    "tab": "splatcraft:weapon_workbench_tabs/rollers",
+    "pos": 12,
+    "recipes": [
+      {
+        "name": "weaponType.original",
+        "advancement": "splatcraft:unlocks/octobrush",
+        "result": {
+          "item": "splatcraft:octobrush",
+          "count": 1,
+          "nbt": "{CustomModelData:1,Settings:'splatcraft:painbrush', display:{Name:'{\"text\":\"NameHere\"}'}}"
+        },
+        "ingredients":
+        [
+          {
+            "item": "minecraft:egg",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }

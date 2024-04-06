@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/dynamo_roller" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/gold_dynamo_roller" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 0 }, "model": "item/dynamo_roller_unfolded" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 1 }, "model": "item/gold_dynamo_roller_unfolded" }
+	]
+}

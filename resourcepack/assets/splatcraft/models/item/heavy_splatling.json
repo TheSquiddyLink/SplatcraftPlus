@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+
+	"overrides": [
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/heavy_splatling" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/order_splatling" }
+	]
+}
