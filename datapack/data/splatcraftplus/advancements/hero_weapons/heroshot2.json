@@ -21,7 +21,7 @@
               "items": [
                 "splatcraft:splattershot"
               ],
-              "nbt": "{CustomModelData:5}"
+              "nbt": "{CustomModelData:4}"
             }
           ]
         }
