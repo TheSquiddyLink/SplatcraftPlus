@@ -5,6 +5,7 @@
         { "predicate": { "custom_model_data": 0 }, "model": "item/splattershot" },
 		{ "predicate": { "custom_model_data": 1 }, "model": "item/octoshot" },
 		{ "predicate": { "custom_model_data": 2 }, "model": "item/ordershot"},
-		{ "predicate": {"custom_model_data": 3}, "model": "item/heroshot"}
+		{ "predicate": {"custom_model_data": 3}, "model": "item/heroshot"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/heroshot2"}
 	]
 }

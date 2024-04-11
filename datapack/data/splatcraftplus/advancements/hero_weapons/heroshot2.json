@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:splattershot",
+        "nbt": "{CustomModelData:4, display:{Name:'{\"text\":\"Hero Shot V2\"}'}}"
+      },
+      "title": "Hero Shot V2",
+      "description": "Get a Splatoon 2 Hero Shot",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:hero_weapons/heroshot",
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:splattershot"
+              ],
+              "nbt": "{CustomModelData:5}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "item"
+      ]
+    ]
+  }
+  

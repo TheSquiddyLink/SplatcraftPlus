@@ -124,7 +124,30 @@
       "advancement": "splatcraft:unlocks/splattershot",
       "result": {
         "item": "splatcraft:splattershot",
-        "nbt": "{CustomModelData:4, display:{Name:'{\"text\":\"Hero Shot\"}'}}",
+        "nbt": "{CustomModelData:3, display:{Name:'{\"text\":\"Hero Shot\"}'}}",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "item": "splatcraft:sardinium",
+          "count": 5
+        },
+        {
+          "item": "splatcraft:power_egg",
+          "count": 14
+        },
+        {
+          "item": "minecraft:ink_sac",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "weaponType.hero2",
+      "advancement": "splatcraft:unlocks/splattershot",
+      "result": {
+        "item": "splatcraft:splattershot",
+        "nbt": "{CustomModelData:4, display:{Name:'{\"text\":\"Hero Shot V2\"}'}}",
         "count": 1
       },
       "ingredients": [
