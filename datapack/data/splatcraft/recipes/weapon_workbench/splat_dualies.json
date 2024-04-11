@@ -60,6 +60,33 @@
       ]
     },
     {
+      "name": "weaponType.hero",
+      "advancement": "splatcraft:unlocks/splat_dualies",
+      "result": {
+        "item": "splatcraft:splat_dualies",
+        "nbt": "{CustomModelData:2, display:{Name:'{\"text\":\"Hero Dualies\"}'}}",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "item": "splatcraft:sardinium",
+          "count": 4
+        },
+        {
+          "item": "splatcraft:power_egg",
+          "count": 7
+        },
+        {
+          "item": "minecraft:ink_sac",
+          "count": 3
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "weaponType.order",
       "advancement": "splatcraft:unlocks/splat_dualies",
       "result": {
