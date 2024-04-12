@@ -90,6 +90,33 @@
         ]
       },
       {
+        "name": "weaponType.hero",
+        "advancement": "splatcraft:unlocks/slosher",
+        "result": {
+          "item": "splatcraft:slosher",
+          "nbt": "{CustomModelData:2, display:{Name:'{\"text\":\"Hero Slosher\"}'}}",
+          "count": 1
+        },
+        "ingredients": [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 8
+          },
+          {
+            "item": "splatcraft:power_egg",
+            "count": 16
+          },
+          {
+            "item": "minecraft:ink_sac",
+            "count": 10
+          },
+          {
+            "item": "minecraft:bucket",
+            "count": 1
+          }
+        ]
+      },
+      {
         "name": "weaponType.order",
         "advancement": "splatcraft:unlocks/slosher",
         "result": {

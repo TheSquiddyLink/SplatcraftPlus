@@ -3,6 +3,7 @@
 
 	"overrides": [
         { "predicate": { "custom_model_data": 0 }, "model": "item/slosher" },
-        { "predicate": { "custom_model_data": 1 }, "model": "item/order_slosher" }
+        { "predicate": { "custom_model_data": 1 }, "model": "item/order_slosher" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/hero_slosher" }
 	]
 }

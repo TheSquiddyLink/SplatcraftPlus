@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:slosher",
+        "nbt": "{CustomModelData:2, display:{Name:'{\"text\":\"Hero Slosher\"}'}}"
+      },
+      "title": "Hero Slosher",
+      "description": "Get a Hero Slosher",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:hero_weapons/root",
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:slosher"
+              ],
+              "nbt": "{CustomModelData:2}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "item"
+      ]
+    ]
+  }
+  

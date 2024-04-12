@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:octobrush",
+        "nbt": "{CustomModelData:3, display:{Name:'{\"text\":\"Hero Brush\"}'}}"
+      },
+      "title": "Hero Brush",
+      "description": "Get a Hero Brush",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:hero_weapons/root",
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:octobrush"
+              ],
+              "nbt": "{CustomModelData:3}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "item"
+      ]
+    ]
+  }
+  
