@@ -3,8 +3,12 @@
 
 	"overrides": [
 		{ "predicate": { "custom_model_data": 0 }, "model": "item/octobrush" },
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/painbrush" },
 		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 0 }, "model": "item/octobrush_unfolded" },
-		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 1 }, "model": "item/painbrush_unfolded" }
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/painbrush" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 1 }, "model": "item/painbrush_unfolded" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/orderbrush" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 2 }, "model": "item/orderbrush_unfolded" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/herobrush" },
+		{ "predicate": { "splatcraft:unfolded": 1, "custom_model_data": 3 }, "model": "item/herobrush_unfolded" }
 	]
 }
