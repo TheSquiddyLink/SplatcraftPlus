@@ -41,8 +41,9 @@ Weapons inspired by the Hero Modes of Splatoon 1,2, and 3
 Weapons inspried by missing weapons from SplatCraft
 
 [X] Gold Dynamo\
-[X] Painbrush
-
+[X] Painbrush\
+[ ] TriSlosher Splatoon 3\
+[ ] Douser Dualies FF
 ## Miscellaneous
 [X] Craftable Splatfest band 
 ## Plans
