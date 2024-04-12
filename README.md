@@ -56,4 +56,4 @@ Weapons inspried by missing weapons from SplatCraft
 [ ] Fix "skin color" for order weapons\
 [ ] Fix ink color splatling and blaster
 ### Splatcraft+
-[ ] Fix painbrush ink color
+[X] Fix painbrush ink color
