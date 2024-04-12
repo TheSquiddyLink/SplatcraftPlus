@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:blaster",
+        "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Hero Blaster\"}'}}"
+      },
+      "title": "Hero Blaster",
+      "description": "Get a Hero Blaster",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:hero_weapons/root",
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:blaster"
+              ],
+              "nbt": "{CustomModelData:1}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "item"
+      ]
+    ]
+  }
+  

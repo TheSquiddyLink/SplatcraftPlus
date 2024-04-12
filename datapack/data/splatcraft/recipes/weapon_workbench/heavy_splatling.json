@@ -101,6 +101,29 @@
         ]
       },
       {
+        "name": "weaponType.hero",
+        "advancement": "splatcraft:unlocks/heavy_splatling",
+        "result": {
+          "item": "splatcraft:heavy_splatling",
+          "nbt": "{CustomModelData:2, display:{Name:'{\"text\":\"Hero Splatling\"}'}}",
+          "count": 1
+        },
+        "ingredients": [
+          {
+            "item": "splatcraft:sardinium",
+            "count": 20
+          },
+          {
+            "item": "splatcraft:power_egg",
+            "count": 12
+          },
+          {
+            "item": "minecraft:ink_sac",
+            "count": 8
+          }
+        ]
+      },
+      {
         "name": "weaponType.order",
         "advancement": "splatcraft:unlocks/heavy_splatling",
         "result": {
