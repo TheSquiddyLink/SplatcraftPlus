@@ -111,7 +111,7 @@
         "advancement": "splatcraft:unlocks/octobrush",
         "result": {
           "item": "splatcraft:octobrush",
-          "nbt": "{CustomModelData:3, display:{Name:'{\"text\":\"Order Brush\"}'}}",
+          "nbt": "{CustomModelData:2, display:{Name:'{\"text\":\"Order Brush\"}'}}",
           "count": 1
         },
         "ingredients":
