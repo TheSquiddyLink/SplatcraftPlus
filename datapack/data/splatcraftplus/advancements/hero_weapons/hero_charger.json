@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "splatcraft:splat_charger",
+        "nbt": "{CustomModelData:1, display:{Name:'{\"text\":\"Hero Charger\"}'}}"
+      },
+      "title": "Hero Charger",
+      "description": "Get a Hero Charger",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "splatcraftplus:hero_weapons/root",
+    "criteria": {
+      "item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "splatcraft:splat_charger"
+              ],
+              "nbt": "{CustomModelData:1}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "item"
+      ]
+    ]
+  }
+  
